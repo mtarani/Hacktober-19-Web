@@ -1,2 +1,6 @@
 # Hacktober-19-Web
-Repository for Hacktober Fest 19 for people who are interested in web development.
+For all the Github Enthusiasts/Freshers!!!
+
+Here's a Chance to contribute to a Web Development repository for HacktoberFest-19.
+
+Don't Forget to Add Your Name and Profile link in the Contributors.md

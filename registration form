@@ -1,0 +1,202 @@
+<html>
+<head>
+	<title>Registration</title>
+	<link rel="stylesheet" type="text/css" href="Registration.css">
+	​ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+</head>
+<body  style="background-size:cover; background-image:url('bbgg.jpg');" >
+	
+	
+	<form>
+		<div  ><img  src="sca logo.jpg" align="right" alt="logo" style=" padding:5px ; border-radius: 180%; height: 180px; width: 200px;  "></div>
+        
+        <br>
+        <br>
+		
+		<h1 align="center" style="font-family:algerian"><P style="font-size:50px; color: red"><b>REGISTRATION FORM</b></P></h1>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p align="left center">
+	<br>
+	<br>
+
+	<div class="container">
+  
+
+		<div class="col-md-4"></div>
+	<div class="col-md-8 bg_color" style="font-family: elephant ;color: #ff0000; border: 1px ;   ">
+	
+  
+
+<label  >NAME :<br>
+	&nbsp;<input style="font-family: arial" type="text" name="firstname" placeholder="FIRST NAME">
+	&nbsp;
+	<input style="font-family: arial" type="text" name="middlename" placeholder="MIDDLE NAME">
+	&nbsp;
+	<input style="font-family: arial" type="text" name="lastname" placeholder="LAST NAME">     </p> 
+
+</label> <br><br>
+
+
+<label style="font-family: elephant">DOB : <br>
+	&nbsp;&nbsp;&nbsp;&nbsp;	
+	
+	<input style="font-family: arial" type="date" name="bday" placeholder="DD-MM-YYYY" ></label><br>
+<br>
+<br>
+
+<label style="font-family: elephant">GENDER :<br>  
+	&nbsp;&nbsp;&nbsp;&nbsp;
+	<label style="font-family: arial"><input  type="radio" name="gender" value="male"  > Male
+	&nbsp;&nbsp;&nbsp;&nbsp;
+  <input style="font-family: arial"type="radio" name="gender" value="female" > Female
+	&nbsp;&nbsp;&nbsp;&nbsp;
+  <input style="font-family: arial"type="radio" name="gender" value="other" > Other </label></label>
+ <br>
+<br>
+
+<label style="font-family: elephant;">CATEGORY :<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;
+	
+	<label style="font-family: arial">
+	<input style="font-family: arial"type="checkbox" name="CATEGORY" value="OPEN"  >OPEN 
+	&nbsp;&nbsp;&nbsp;&nbsp;
+  <input style="font-family: arial" type="checkbox" name="CATEGORY" value="EWS" > EWS
+	&nbsp;&nbsp;&nbsp;&nbsp;
+
+	<input style="font-family: arial" type="checkbox" name="CATEGORY" value="OBC"  >OBC 
+	&nbsp;&nbsp;&nbsp;&nbsp;
+  <input style="font-family: arial" type="checkbox" name="CATEGORY" value="SC/ST"> SC/ST
+	&nbsp;&nbsp;&nbsp;&nbsp;
+  <input style="font-family: arial" type="checkbox" name="CATEGORY" value="other" > Other
+</label></label>
+<br>
+<br>
+
+<label style="font-family: elephant;">&nbsp;&nbsp;CONTACT :<br>
+	
+	<div style=" border: 1px solid black;
+  padding: 5px 10px 15px 20px;
+  background-color: transparent;">	
+	MOBILE NO. :
+	<select style="font-family: arial">
+		<
+		<option>91</option>
+	<option>92</option>
+	<option>93</option>
+	<option>94</option>
+	<option>95</option>
+	</select> 
+<input style="font-family: arial" type="phone" name="mobile no." maxlength="10" placeholder="mobile number">
+<br>
+<br>
+E-MAIL : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input style="font-family: arial" type="email" name="email" maxlength="50" placeholder="ra********@gmail.com    ">
+</div>
+</label>
+
+<br>
+<br>
+
+<label style="font-family: elephant;">ADDRESS :<br>
+	<div style=" border: 1px solid black;
+  padding: 5px 10px 15px 20px;
+  background-color: transparent;">	
+House No. :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input style="font-family: arial" type="text" name="block" maxlength="30" placeholder="FLAT NO.;HOUSE NO."> <br><br>
+Area/Residental :&nbsp;&nbsp;&nbsp;&nbsp;<input style="font-family: arial" type="text" name="block" maxlength="30" placeholder="AREA"><br>
+<br>
+City :&nbsp;&nbsp;&nbsp;&nbsp;<input style="font-family: arial" type="text" name="block" maxlength="30" placeholder="CITY">
+&nbsp;&nbsp;&nbsp;&nbsp;
+Pincode :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input style="font-family: arial" type="phone" name="Pincode" maxlength="6" placeholder="PINCODE"><br><br>
+State :&nbsp;&nbsp;&nbsp;&nbsp;<input style="font-family: arial" type="text" name="State" maxlength="30" placeholder="STATE">
+&nbsp;&nbsp;&nbsp;&nbsp;
+Country :&nbsp;&nbsp;&nbsp;&nbsp;<input style="font-family: arial" type="text" name="Country" maxlength="30" placeholder="Country">
+
+</div></label>
+<br>
+<br>
+<label style="font-family: elephant;">AADHAR CARD :<br>
+<input style="font-family: arial" type="text" name="mobile no." maxlength="12" placeholder="AADHAR NUMBER">
+</label>
+<br>
+<br>
+<label style="font-family: elephant;">ACADEMIC DETAIL :<br></label>
+<br>
+
+<table border="5" style="bgcolor: transparent;  height: 50% width: 20% " >
+	
+	<tr>
+
+	<th>CLASS</th>
+	<th>BOARD/UNIVERSITY</th>
+    <th>YEAR OF PASSING</th>
+    <th>PERCENTAGE</th>
+    </tr>
+<tr>
+	
+
+<td><input style="font-family: arial" type="text" name="class" maxlength="3" placeholder="10th">
+</td>
+<td ><input style="font-family: arial" type="text" name="board" maxlength="30" placeholder=""></td>
+<td><input style="font-family: arial" type="text" name="date"  placeholder="DD-MM-YYYY"></td>
+<td ><input style="font-family: arial" type="text" name="PERCENTAGE" maxlength="2" placeholder=""></td>
+
+</tr>
+<tr>
+	
+<td><input style="font-family: arial" type="text" name="class" maxlength="3" placeholder="12th">
+</td>
+<td ><input style="font-family: arial" type="text" name="board" maxlength="30" placeholder=""></td>
+<td><input style="font-family: arial" type="text" name="date"  placeholder="DD-MM-YYYY"></td>
+<td ><input style="font-family: arial" type="text" name="PERCENTAGE" maxlength="2" placeholder=""></td>
+
+</tr>
+<tr>
+	
+<td><input style="font-family: arial" type="text" name="class" maxlength="3" placeholder="GRADUTION">
+</td>
+<td ><input style="font-family: arial" type="text" name="board" maxlength="30" placeholder=""></td>
+<td><input style="font-family: arial" type="text" name="date"  placeholder="DD-MM-YYYY"></td>
+<td ><input style="font-family: arial" type="text" name="PERCENTAGE" maxlength="2" placeholder=""></td>
+
+</tr>
+<tr>
+	
+<td><input style="font-family: arial" type="text" name="class" maxlength="3" placeholder="POST GRADUTION">
+</td>
+<td ><input style="font-family: arial" type="text" name="board" maxlength="30" placeholder=""></td>
+<td><input style="font-family: arial" type="text" name="date"  placeholder="DD-MM-YYYY"></td>
+<td ><input style="font-family: arial" type="text" name="PERCENTAGE" maxlength="2" placeholder=""></td>
+
+</tr>
+</table>
+
+<br>
+<br>
+<label style="font-family: elephant;" class="form-label form-label-left form-label-auto" id="label_303" for="input_303">SIGNATURE :<br>
+	<div style="size: 1px ; color: red; font-family: batang">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*field only accept .jpg, .jpeg, .png,.pdf
+</div>
+ 
+        <div id="cid_303" class="form-input">
+          <input type="file" id="input_303" name="q303_uploadResume" class="form-upload" data-imagevalidate="yes" data-file-accept="pdf,  jpg, jpeg, png, gif" data-file-maxsize="10240" data-file-minsize="0" data-file-limit="0" data-component="fileupload"  />
+        </div>
+        </label>
+     
+
+    <div align="center" style="height: 20px ;"> <button type="submit" class="btn btn-default"  style=" background-image: radial-gradient(blue, lightgreen); ">SUBMIT</button>
+    	<br>
+    	<br>
+    	<br><br>
+		</div>
+</p></div>
+	</div>
+    </div>
+	
+</div>
+</form>                 
+</body>
+
+</html >
